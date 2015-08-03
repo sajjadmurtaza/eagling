@@ -5,10 +5,10 @@ module ExtraAttributesForAllMigration
 
   class ActiveRecord::ConnectionAdapters::TableDefinition
 
-    def publishing(*args)
+    def eagling(*args)
       options = args.extract_options!
-      column(:publish_up, :datetime, options)
-      column(:publish_down, :datetime, options)
+      column(:deleted_at, :datetime, options)
+      column(:last_view_at, :datetime, options)
     end
   end
 

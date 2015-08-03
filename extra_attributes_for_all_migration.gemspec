@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sajjad Murtaza (01770)"]
   spec.email         = ["sajjad.murtaza@nxb.com.pk"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Add Extra Columns like timestamps }
+  spec.description   = %q{This gem add deleted_at and last_view_at columns.}
   spec.homepage      = "https://github.com/sajjadmurtaza49/extra_attributes_for_all_migration"
   spec.license       = "MIT"
 
