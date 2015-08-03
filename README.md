@@ -7,6 +7,11 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'extra_attributes_for_all_migration', :git => 'https://github.com/sajjadmurtaza49/extra_attributes_for_all_migration'
 ```
+or
+
+```ruby
+gem 'extra_attributes_for_all_migration'
+```
 
 And then execute:
 
