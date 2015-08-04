@@ -1,3 +1,3 @@
 module ExtraAttributesForAllMigration
-  VERSION = "0.1.0_alpha"
+  VERSION = "0.1.0"
 end
