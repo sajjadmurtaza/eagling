@@ -7,8 +7,10 @@ module ExtraAttributesForAllMigration
 
     def eagling(*args)
       options = args.extract_options!
-      column(:deleted_at, :datetime, options)
-      column(:last_view_at, :datetime, options)
+
+      options.each do |column_name, data_type|
+        column(column_name, data_type)
+      end
     end
   end
 
