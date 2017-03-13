@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'extra_attributes_for_all_migration/version'
+require 'eagling/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "extra_attributes_for_all_migration"
-  spec.version       = ExtraAttributesForAllMigration::VERSION
+  spec.name          = "eagling"
+  spec.version       = Eagling::VERSION
   spec.authors       = ["Sajjad Murtaza (01770)"]
   spec.email         = ["sajjad.murtaza@nxb.com.pk"]
 
   spec.summary       = %q{Add Extra Columns like timestamps }
   spec.description   = %q{This gem add deleted_at and last_view_at columns.}
-  spec.homepage      = "https://github.com/sajjadmurtaza49/extra_attributes_for_all_migration"
+  spec.homepage      = "https://github.com/sajjadmurtaza49/eagling"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

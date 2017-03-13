@@ -1,6 +1,6 @@
-require "extra_attributes_for_all_migration/version"
+require "eagling/version"
 
-module ExtraAttributesForAllMigration
+module Eagling
   require 'active_record/connection_adapters/abstract/schema_definitions'
 
   class ActiveRecord::ConnectionAdapters::TableDefinition
